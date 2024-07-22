@@ -1,0 +1,56 @@
+.instructions {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.instructions h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.instructions p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.instructions ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.instructions li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.victory-container {
+    text-align: center;
+    margin-top: 20px;
+}
+  
+.restart-button {
+    margin: 35px;
+    padding: 12px 25px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #2196f3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+  
+.restart-button:hover {
+    background-color: #1976d2; 
+    transform: scale(1.05); 
+}
+
+.restart-button:active {
+    background-color: #1565c0; 
+    transform: scale(0.95); 
+}
