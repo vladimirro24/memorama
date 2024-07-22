@@ -2,6 +2,8 @@ import './App.css';
 import { useEffect, useState } from 'react';
 import Board from './components/Board/Board';
 
+//Created by Vladimir Rodríguez:   https://www.linkedin.com/in/vladimir-rodriguez/   
+
 const emojiList = [...'🌍🧤🎩🌮🎱🐼🍕🦖'];
 
 const App = () => {
